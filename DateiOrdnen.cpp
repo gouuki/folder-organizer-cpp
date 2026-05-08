@@ -88,7 +88,7 @@ fs::path FileManager::getSafePath(fs::path target)
 
 void Logger::writeLog(const std::string& data_name , const std::string& target_folder,
                 const std::string& log_folder)
-{
+{ 
     auto time = std::chrono::system_clock::now();
     auto time_now = std::chrono::floor<std::chrono::seconds>(time);
     std::string date = std::format({":%d-%m-%Y %H:%M:%S"}, time_now);
