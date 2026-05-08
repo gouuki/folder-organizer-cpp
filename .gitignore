@@ -1,0 +1,11 @@
+*
+
+!*.cpp
+!*.h
+!*.gitignore
+!*README.md
+
+.DS_Store
+
+*.o
+*.exe
