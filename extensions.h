@@ -10,13 +10,14 @@ inline const std::map< std::string , std::string> extensions =
     {".jpeg" , "Images"}, {".bmp" ,"Images"} , {".tif" , "Images"},
     {".webp" , "Images"}  , {".svg", ".Images"}, {".heic", "Images"},
     {".ico" , "Images"}, {".psd" , "Images"} , {".ai", "Images"},
-    {".raw" , "Images"},
+    {".raw" , "Images"}, {".icns" , "Images"},
 
     {".pdf","Documents"} , {".docx" , "Documents"},{".txt", "Documents"},
     {".doc" , "Documents"} , {".xls" , "Documents"}, {".xlsx" , "Documents"},
     {".ppt" , "Documents"}, {".pptx" , "Documents"}, {".rtf" , "Documents"},
     {".md" , "Documents"}, {".odt" , "Documents"}, {".epub" , "Documents"},
-    {".mobi" , "Documents"}, {".azw3" , "Documents"},
+    {".mobi" , "Documents"}, {".azw3" , "Documents"}, {".pages" , "Documents"},
+    {".numbers" , "Documents"}, {".key" , "Documents"}, {".plist" , "Documents"},
 
     {".mp4", "Videos"},{".mkv", "Videos"} , {".avi" , "Videos"},
     {".mov" , "Videos"}, {".wmv" , "Videos"}, {".flv" , "Videos"},
@@ -31,7 +32,8 @@ inline const std::map< std::string , std::string> extensions =
 
     {".exe" , "Programs"}, {".msi" , "Programs"}, {".bat" , "Programs"},
     {".py" ,"Programs"}, {".js" ,"Programs"} , {".cpp" , "Programs"},
-    {".sh" , "Programs"}
+    {".sh" , "Programs"} , {".dmg", "Programs"} , {".pkg" , "Programs"},
+    {".app", "Programs"}
 };
     
 
